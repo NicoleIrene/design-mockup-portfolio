@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen:300');
+* {
+	box-sizing: border box;
+
+}
+body {
+		font-family: 'Oxygen', sans-serif;
+
+}
+/* header styles below */
+
+h1 {
+	text-align: right;
+	text-transform: uppercase;
+	color: #554;
+	font-size: 40px;
+	padding-right: 10px;
+}
+
+h4 {
+	text-align: right;
+	text-transform: uppercase;
+	padding-right: 10px;
+
+}
+/*horizontal line below */
+
+hr.style13 {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #4bf inset;
+}
+/* id styles below */
+
+#logo {
+	position: relative; top: -15px;
+	float:left;
+	padding-left: 5px;
+}
+
+#main-img {
+	width: 85%;
+	display: block;
+	margin: 0 auto;
+}
+/* h2 class style below */
+
+.featured {
+	text-decoration: underline;
+	color: #554;
+}
+/* footer styles below */
+
+.footer-flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.row-3-2-1 {
+	padding: 5px;
+	width: 23%;
+}
+
+p {
+	text-align: center;
+	font: bold 1.3em/.5;
+}
+
+.url {
+	font-size: 12px;
+}
+a:link {
+	text-decoration: none;
+}
